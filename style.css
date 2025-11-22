@@ -1,0 +1,258 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar*/
+
+.nav {
+    background: #000000;
+    padding: 15px;
+    position:absolute;
+    width: 100%;
+    top: 0;
+    justify-content: center;
+}
+.navlist{
+    display: flex;
+    justify-content: center;
+}
+
+.nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px;
+}
+
+.nav a:hover{
+color: rgb(235, 163, 112);
+}
+
+/* Hero Section*/
+.hero {
+    background: url(Images/Screenshot\ 2025-02-26\ 152015.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 600px;
+    padding: 100px 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    margin-top: 45px;
+    animation: fadeIn 1.5s ease-out;
+    position: relative
+}
+
+.hero h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-size: 3em;
+    animation: slideIn 1s ease-out;
+}
+
+/* Features Section*/
+
+.showroom-features {
+    background: #f0f0f0;
+}
+
+.showroom-features ol {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 40px;
+}
+
+.showroom-features li {
+    margin: 15px 0;
+    line-height: 1.6;
+    font-size: 1.1em;
+    animation: slideIn 1s ease-out;
+}
+.showroom-features h2 {
+    animation: slideIn 1s ease-out;
+}
+/* Products Section*/
+#products {
+    padding: 50px 20px;
+    background: #f5f5f5;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: scaleIn 0.5s ease-out;
+}
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.purchase-btn {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+}
+
+.purchase-btn:hover {
+    background: #e64a02;
+    transform: scale(1.05);
+}
+
+.p1{
+    display: inline;
+}
+
+.pt{
+    text-decoration: line-through;
+    display: inline;
+}
+
+/* Offfeers*/
+#offers {
+    padding: 50px 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #333;
+    color: white;
+}
+
+#contact {
+    background: #333;
+    color: white;
+    padding: 50px 20px;
+}
+
+/* Contact Secrion*/
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.social-links a:hover {
+    color: #a2f7a5;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#offers tr {
+    transition: background-color 0.3s ease;
+}
+
+#offers tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* animations*/
+
+@keyframes slideIn {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0.95);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+/*
+
+.showroom-features li {
+    animation: slideIn 0.5s ease-out;
+    animation-fill-mode: both;
+}
+
+.showroom-features li:nth-child(1) { animation-delay: 0.1s; }
+.showroom-features li:nth-child(2) { animation-delay: 0.2s; }
+.showroom-features li:nth-child(3) { animation-delay: 0.3s; }
+.showroom-features li:nth-child(4) { animation-delay: 0.4s; }
+.showroom-features li:nth-child(5) { animation-delay: 0.5s; }
+.showroom-features li:nth-child(6) { animation-delay: 0.6s; }
+.showroom-features li:nth-child(7) { animation-delay: 0.7s; }
+.showroom-features li:nth-child(8) { animation-delay: 0.8s; }
+
+

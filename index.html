@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Phone Showroom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="nav">
+        <ul class="navlist">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#offers" >Offers</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact" >Contact Us</a></li> 
+        </ul>
+
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+            <h1>Welcome to iMobile.LK</h1>
+    </section>
+
+    <!--Features Section-->
+    <section class="showroom-features">
+        <h2>Why Choose Our Showroom?</h2>
+        <ol>
+            <li>Authorized dealer for All Apple products.</li>
+            <li>Flexible payment options.</li>
+            <li>Expert staff ready to provide personalized recommendations based on your needs and budget.</li>
+            <li>Comprehensive warranty coverage with in-house service center for quick repairs and support.</li>
+            <li>Regular special offers and exclusive deals for our loyal customers.</li>
+            <li>Free screen protector and case with every phone purchase.</li>
+        </ol>
+    </section>
+
+        <!--Offers Section-->
+
+    <section id="offers">
+        <h2>Special Offers</h2>
+        <table>
+            <tr>
+                <th>Model</th>
+                <th>Regular Price</th>
+                <th>Offer Price</th>
+                <th>Savings</th>
+            </tr>
+            <tr>
+                <td>iPhone 15 Pro</td>
+                <td>LKR 349,900/=</td>
+                <td>LKR 299,900/=</td>
+                <td>LKR 50,00/=</td>
+            </tr>
+            <tr>
+                <td>MacBook Pro M4</td>
+                <td>LKR 799,900/=</td>
+                <td>LKR 699,900/=</td>
+                <td>LKR 100,000/=</td>
+            </tr>
+            <tr>
+                <td>Apple Watch Series 10</td>
+                <td>LKR 169,900/=</td>
+                <td>LKR 159,900/=</td>
+                <td>LKR 10,000/=</td>
+            </tr>
+            <tr>
+                <td>AirPods Pro (2nd Generation) 2024</td>
+                <td>LKR 65,900/=</td>
+                <td>LKR 55,900/=</td>
+                <td>LKR 10,000/=</td>
+            </tr>
+        </table>
+    </section>
+
+   
+
+    <!-- Products Section -->
+    <section id="products">
+        <h2>Shop Now</h2>
+        <div class="product-container">
+            <div class="product-card">
+                <img src="Images/iphone-16-Ultramarine1-600x600.jpg" alt="iPhone 16">
+                <h3>iPhone 16</h3>
+                <p>6.1-inch aerospace-grade aluminum design footnote 1 with durable latest-generation Ceramic Shield front</p><br>
+                <p>The first iPhone designed for Apple Intelligence. footnote 2 Personal, private, powerful.</p><br>
+                <p></p>
+                <p>Price: LKR 489,900/=</p>
+                <button class="purchase-btn" onclick="purchasePhone('iPhone 16')">Purchase Now</button>
+            </div>
+            <div class="product-card">
+                <img src="Images/iPhone-15-pro-Max-natural-1-600x600.jpg" alt="iPhone 15 Pro">
+                <h3>iPhone 15 Pro</h3>
+                <p>6.7-inch durable color-infused glass and aluminum design footnote with Ceramic Shield front</p><br>
+                <p>48MP Main camera with 2x Telephoto captures breathtaking detail up close or far away</p><br>
+                <p class="p1">Price:<p class="pt">LKR 349,900/= </p>LKR 299,900/=</p>
+                <button class="purchase-btn" onclick="purchasePhone('iPhone 15 Pro')">Purchase Now</button>
+            </div>
+            <div class="product-card">
+                <img src="Images/iPhone-14-Plus-All-Colours--17-600x600.jpg" alt="iPhone14 Plus">
+                <h3>iPhone14 Plus</h3>
+                <p>6.7-inch durable design footnote ¹ with Ceramic Shield and water and dust resistance</p><br>
+                <p>A Pro-level Main camera and advanced image processing for sensational shots in all kinds of light</p><br>
+                <p>Price: LKR 249,900/=</p>
+                <button class="purchase-btn" onclick="purchasePhone('iPhone14 Plus')">Purchase Now</button>
+            </div>
+            <div class="product-card">
+                <img src="Images/iPhone-13-All-Colours-1-600x600.jpg" alt="iPhone 13">
+                <h3>iPhone 13</h3>
+                <p>6.1-inch durable design footnote 1 with Ceramic Shield and water and dust resistance</p><br>
+                <p>A Pro-level Main camera and advanced image processing for sensational shots in all kinds of light</p><br>
+                <p>Price: LKR 169,900/=</p>
+                <button class="purchase-btn" onclick="purchasePhone('iPhone 13')">Purchase Now</button>
+            </div>
+            <div class="product-card">
+                <img src="Images/20-4-600x600.jpg" alt="Apple Watch Series 10">
+                <h3>Apple Watch Series 10</h3>
+                <p>LTPO3 OLED Always‑On Retina display</p><br>
+                <p>Vitals app featuring heart rate, respiratory rate, wrist temperature, and sleep duration</p><br>
+                <p>Water resistant</p><br> 
+                <p class="p1">Price:<p class="pt">LKR 169,900/= </p>LKR 159,900/=</p>
+                <button class="purchase-btn" onclick="purchasePhone('Apple Watch Series 10')">Purchase Now</button>
+            </div>
+            <div class="product-card">
+                <img src="Images/website-photo-size-25-600x600.jpg" alt="MacBook Pro M4">
+                <h3>MacBook Pro M4</h3>
+                <p>16-inch Display</p><br>
+                <p>M4 Max Chip</p><br>
+                <p>Space Black Color</p><br>
+                <p>Configure with up to 32GB unified memory</p><br>
+                <p class="p1">Price:<p class="pt">LKR 799,900/= </p>LKR 699,900/=</p>
+                <button class="purchase-btn" onclick="purchasePhone('MacBook Pro M4')">Purchase Now</button>
+            </div>
+            <div class="product-card">
+                <img src="Images/midnight1-600x600.jpg" alt="Macbook Air M3">
+                <h3>Macbook Air M3</h3>
+                <p>13-inch Display</p><br>
+                <p>M4 Pro Chip</p><br>
+                <p>Midnight Color</p><br>
+                <p>Configure with up to 16GB unified memory</p><br>
+                <p>Price: LKR 509,900/=</p>
+                <button class="purchase-btn" onclick="purchasePhone('Macbook Air M3')">Purchase Now</button>
+            </div>
+            <div class="product-card">
+                <img src="Images/website-photo-size-9-600x600.jpg" alt="AirPods Pro (2nd Generation) 2024">
+                <h3>AirPods Pro (2nd Generation) 2024</h3>
+                <p>Adaptive Audio</p><br>
+                <p>Active Noise Cancellation and Transparency mode</p><br>
+                <p>6 hours up to 6 hours of listening time with a single charge</p><br>
+                <p class="p1">Price:<p class="pt">LKR 65,900/=</p>LKR 55,900/=</p>
+                <button class="purchase-btn" onclick="purchasePhone('AirPods Pro (2nd Generation) 2024')">Purchase Now</button>
+            </div>
+        </div>
+    </section>
+ <!-- Contact Section -->
+ <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+        <div>
+            <h3>Address</h3>
+            <p>8/5/2, Hill Street,</p>
+            <p>Dehiwala, Sri Lanka.</p>
+        </div>
+        <div>
+            <h3>Phone</h3>
+            <p>+94 76 739 9858</p>
+            <p>+94 72 831 3188</p>
+        </div>
+        <div>
+            <h3>Email</h3>
+            <p>info@imobiledehiwala.com</p>
+        </div>
+        <div class="social-links">
+            <h3>Follow Us</h3>
+            <a href="https://web.facebook.com/apple">Facebook</a>
+            <a href="https://www.instagram.com/apple/">Instagram</a>
+            <a href="https://twitter.com/Apple">Twitter</a>
+        </div>
+    </div>
+</section>
+
+    <script src="script.js"></script>
+</body>
+</html>
