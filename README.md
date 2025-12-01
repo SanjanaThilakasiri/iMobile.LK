@@ -103,7 +103,19 @@ This project is suitable for:
 * Make the website fully responsive for mobile devices
 
 ---
+## ScreenShots
+<img width="1440" height="746" alt="Screenshot 2025-02-26 164525" src="https://github.com/user-attachments/assets/b9401278-a3ae-4966-a0d3-c1de80200fb7" />
+<img width="1440" height="900" alt="Screenshot 2025-02-26 164247" src="https://github.com/user-attachments/assets/b7c9c82c-424e-44c1-99dc-70f34960047a" />
+<img width="1440" height="900" alt="Screenshot 2025-02-26 164437" src="https://github.com/user-attachments/assets/2c5263f3-294a-46b9-95cd-725f3f2a2e6f" />
+<img width="1440" height="900" alt="Screenshot 2025-02-26 164300" src="https://github.com/user-attachments/assets/a2433a15-f3aa-4f08-8dd0-5009e6b722b7" />
+<img width="1440" height="900" alt="Screenshot 2025-02-26 164453" src="https://github.com/user-attachments/assets/0b37bfe4-72fb-4490-a5e6-dc646a43b5ae" />
 
+
+
+
+
+
+---
 ## 📝 Author
 
 Developed as a basic front-end project to demonstrate HTML, CSS, and JavaScript skills.
